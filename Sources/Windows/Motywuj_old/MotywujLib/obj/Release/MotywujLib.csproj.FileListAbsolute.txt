@@ -1,0 +1,8 @@
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\Bin\Release\MotywujLib.dll
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\Bin\Release\MotywujLib.pdb
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\obj\Release\MotywujLib.dll
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\obj\Release\MotywujLib.pdb
+D:\PROJEKTY\APLIKACJE\Motywuj\OLD\Sources\Motywuj\MotywujLib\Bin\Release\MotywujLib.dll
+D:\PROJEKTY\APLIKACJE\Motywuj\OLD\Sources\Motywuj\MotywujLib\Bin\Release\MotywujLib.pdb
+D:\PROJEKTY\APLIKACJE\Motywuj\OLD\Sources\Motywuj\MotywujLib\obj\Release\MotywujLib.dll
+D:\PROJEKTY\APLIKACJE\Motywuj\OLD\Sources\Motywuj\MotywujLib\obj\Release\MotywujLib.pdb

@@ -1,0 +1,4 @@
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\bin\Trial\MotywujLib.dll
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\bin\Trial\MotywujLib.pdb
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\obj\Trial\MotywujLib.dll
+H:\PROJECTS\Windows Phone\Motywuj\Sources\Motywuj\MotywujLib\obj\Trial\MotywujLib.pdb

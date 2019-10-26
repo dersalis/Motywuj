@@ -1,0 +1,2 @@
+D:\PROJEKTY\APLIKACJE\Motywuj\OLD\Sources\Motywuj\Motywuj.WP8.Pay\Motywuj.WP8.Pay.csproj;neutral
+D:\PROJEKTY\APLIKACJE\Motywuj\OLD\Sources\Motywuj\MotywujLib\MotywujLib.csproj;neutral

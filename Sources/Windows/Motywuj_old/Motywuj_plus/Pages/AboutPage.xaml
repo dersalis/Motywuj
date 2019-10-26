@@ -1,0 +1,122 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Motywator.Pages.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:Controls="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"
+	xmlns:convert="clr-namespace:Atrx.WindowsPhone.Library.ValueConverters;assembly=Atrx.WindowsPhone.Library.ValueConverters"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!-- Animacja -->
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <phone:Panorama>
+            <phone:Panorama.Title>
+                <StackPanel Orientation="Horizontal" Margin="12, 45, 0, 0">
+                    <Image Source="/Images/mtw_64.png" Height="40"/>
+                    <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
+							   Margin="10" Style="{StaticResource PhoneTextLargeStyle}" FontFamily="Segoe UI Light" FontSize="24" Foreground="White"/>
+                </StackPanel>
+            </phone:Panorama.Title>
+            <phone:Panorama.Background>
+                <ImageBrush ImageSource="/Assets/PanoramaBackground.png" Stretch="UniformToFill"/>
+            </phone:Panorama.Background>
+            
+            
+            <!--Panorama item one-->
+            <phone:PanoramaItem Margin="0, 0, -46, 0">
+                <phone:PanoramaItem.Header>
+                    <TextBlock Text="{Binding Path=LocalizedResources.PageAbout, Source={StaticResource LocalizedStrings}}">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource YellowColor}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                </phone:PanoramaItem.Header>
+
+                <StackPanel Orientation="Vertical">
+                    <Image Source="/Images/mtw_256.png" Height="220"/>
+                    <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" HorizontalAlignment="Center" FontFamily="Segoe WP Light" FontSize="35" Foreground="White"/>
+
+                    <Grid Width="auto" Margin="0, 30" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="WERSJA:" FontFamily="Segoe WP Light" FontSize="20" Margin="10, 5" Foreground="White"/>
+                        <TextBlock Grid.Column="0" Grid.Row="1" Text="AUTOR:" FontFamily="Segoe WP Light" FontSize="20" Margin="10, 5" Foreground="White"/>
+                        <TextBlock Grid.Column="0" Grid.Row="2" Text="KONTAKT:" FontFamily="Segoe WP Light" FontSize="20" Margin="10, 5" Foreground="White"/>
+
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="1.0.0.2" FontFamily="Segoe WP Light" FontSize="20" Margin="5, 5" Foreground="White"/>
+                        <TextBlock Grid.Column="1" Grid.Row="1" Text="Damian Ruta" FontFamily="Segoe WP Light" FontSize="20" Margin="5, 5" Foreground="White"/>
+                        <TextBlock Grid.Column="1" Grid.Row="2" x:Name="txtSendEmail" Text="mobileapps@aturex.pl" FontFamily="Segoe WP Light" FontSize="20" Margin="5, 5" Foreground="White" Tap="txtSendEmail_Tap"/>
+                    </Grid>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Controls:RoundButton x:Name="btnGuide" Label="{Binding Path=LocalizedResources.TextGuide, Source={StaticResource LocalizedStrings}}" BorderBrush="White" Foreground="White" ImageSource="/Images/guide_48.png" toolkit:TiltEffect.IsTiltEnabled="True" Click="btnGuide_Click" Margin="3, 0">
+                            <Controls:RoundButton.PressedBrush>
+                                <SolidColorBrush Color="{StaticResource BlueColor}" />
+                            </Controls:RoundButton.PressedBrush>
+                        </Controls:RoundButton>
+                        <Rectangle Fill="White" Width="1" Margin="10, 0"/>
+                        <Controls:RoundButton x:Name="btnReview" Label="{Binding Path=LocalizedResources.TextReview, Source={StaticResource LocalizedStrings}}" BorderBrush="White" Foreground="White" ImageSource="/Images/review_48.png" toolkit:TiltEffect.IsTiltEnabled="True" Click="btnReview_Click" Margin="3, 0">
+                            <Controls:RoundButton.PressedBrush>
+                                <SolidColorBrush Color="{StaticResource BlueColor}" />
+                            </Controls:RoundButton.PressedBrush>
+                        </Controls:RoundButton>
+                        <Controls:RoundButton x:Name="btnStore" Label="{Binding Path=LocalizedResources.TextStore, Source={StaticResource LocalizedStrings}}" BorderBrush="White" Foreground="White" ImageSource="/Images/store_48.png" toolkit:TiltEffect.IsTiltEnabled="True" Click="btnStore_Click" Margin="3, 0">
+                            <Controls:RoundButton.PressedBrush>
+                                <SolidColorBrush Color="{StaticResource BlueColor}" />
+                            </Controls:RoundButton.PressedBrush>
+                        </Controls:RoundButton>
+                        <Controls:RoundButton x:Name="btnEmail" Label="{Binding Path=LocalizedResources.TextEmail, Source={StaticResource LocalizedStrings}}" BorderBrush="White" Foreground="White" ImageSource="/Images/mail_48.png" toolkit:TiltEffect.IsTiltEnabled="True" Click="btnEmail_Click" Margin="3, 0">
+                            <Controls:RoundButton.PressedBrush>
+                                <SolidColorBrush Color="{StaticResource BlueColor}" />
+                            </Controls:RoundButton.PressedBrush>
+                        </Controls:RoundButton>
+                    </StackPanel>
+                </StackPanel>
+
+            </phone:PanoramaItem>
+
+            
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

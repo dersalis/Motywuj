@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotywujLib", "MotywujLib\MotywujLib.csproj", "{A01C7E22-4C20-453D-80FE-67C2AAFA5087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motywuj.WP8.Pay", "Motywuj.WP8.Pay\Motywuj.WP8.Pay.csproj", "{B94D9FA4-34A1-4783-97A1-F351B9014A67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+		Trial|Any CPU = Trial|Any CPU
+		Trial|ARM = Trial|ARM
+		Trial|x86 = Trial|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Debug|ARM.Build.0 = Debug|ARM
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Debug|x86.ActiveCfg = Debug|x86
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Debug|x86.Build.0 = Debug|x86
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Release|ARM.ActiveCfg = Release|ARM
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Release|ARM.Build.0 = Release|ARM
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Release|x86.ActiveCfg = Release|x86
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Release|x86.Build.0 = Release|x86
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Trial|Any CPU.ActiveCfg = Trial|Any CPU
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Trial|Any CPU.Build.0 = Trial|Any CPU
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Trial|ARM.ActiveCfg = Trial|ARM
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Trial|ARM.Build.0 = Trial|ARM
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Trial|x86.ActiveCfg = Trial|x86
+		{A01C7E22-4C20-453D-80FE-67C2AAFA5087}.Trial|x86.Build.0 = Trial|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|ARM.Build.0 = Debug|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|x86.ActiveCfg = Debug|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|x86.Build.0 = Debug|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Debug|x86.Deploy.0 = Debug|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|ARM.ActiveCfg = Release|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|ARM.Build.0 = Release|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|ARM.Deploy.0 = Release|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|x86.ActiveCfg = Release|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|x86.Build.0 = Release|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Release|x86.Deploy.0 = Release|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|Any CPU.ActiveCfg = Trial|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|Any CPU.Build.0 = Trial|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|Any CPU.Deploy.0 = Trial|Any CPU
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|ARM.ActiveCfg = Trial|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|ARM.Build.0 = Trial|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|ARM.Deploy.0 = Trial|ARM
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|x86.ActiveCfg = Trial|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|x86.Build.0 = Trial|x86
+		{B94D9FA4-34A1-4783-97A1-F351B9014A67}.Trial|x86.Deploy.0 = Trial|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,253 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Motywator.GuidePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	
+	xmlns:Controls="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"
+	xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF284B27" Offset="0"/>
+				<GradientStop Color="#FF6ADB65" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<!--Pivot Control-->
+		<phone:Pivot>
+			<phone:Pivot.Title>
+				<StackPanel Orientation="Horizontal" Margin="2, -10, 0, 0">
+					<Image Source="/Images/mtw_64.png" Height="40"/>
+					<TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
+							   Margin="10" Style="{StaticResource PhoneTextLargeStyle}" FontFamily="Segoe UI Light" FontSize="24" Foreground="White"/>
+				</StackPanel>
+			</phone:Pivot.Title>
+			<!--Pivot item one-->
+			<phone:PivotItem>
+				<phone:PivotItem.Header>
+					<TextBlock Text="{Binding Path=LocalizedResources.PageGuide, Source={StaticResource LocalizedStrings}}">
+						<TextBlock.Foreground>
+							<SolidColorBrush Color="{StaticResource YellowColor}"/>
+						</TextBlock.Foreground>
+					</TextBlock>
+				</phone:PivotItem.Header>
+
+				<ScrollViewer Margin="12, 0">
+
+					<StackPanel Orientation="Vertical" >
+
+						<Grid >
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="auto"/>
+								<ColumnDefinition Width=" 1*"/>
+							</Grid.ColumnDefinitions>
+							<StackPanel Grid.Column="0" Width="50" Height="50" Margin="1" Background="#FF536CA4">
+								<TextBlock Text="1" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe WP Light"/>
+							</StackPanel>
+							<StackPanel Grid.Column="1" Height="70" Margin="1">
+								<TextBlock Text="WYLOSUJ CYTAT" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="35" Margin="15, 12, 0, 12" FontFamily="Segoe WP Light" Foreground="#DEFFFFFF"/>
+							</StackPanel>
+						</Grid>
+
+						<StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+							<TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								<Run Text="Kliknij "/>
+								<Bold>
+									<Run Text="losuj"/>
+								</Bold>
+								<Run Text=" na stronie "/>
+								<Bold>
+									<Run Text="losowy cytat"/>
+								</Bold>
+								<Run Text=" aby wylosować nowy."/>
+							</TextBlock>
+							<Image Source="/Images/g11.png" Margin="0, 0, 10, 0"/>
+						</StackPanel>
+
+						<Grid >
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="auto"/>
+								<ColumnDefinition Width=" 1*"/>
+							</Grid.ColumnDefinitions>
+							<StackPanel Grid.Column="0" Width="50" Height="50" Margin="1" Background="#FF536CA4">
+								<TextBlock Text="2" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe WP Light"/>
+							</StackPanel>
+							<StackPanel Grid.Column="1" Height="70" Margin="1">
+								<TextBlock Text="CZYTAJ CYTAT" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="35" Margin="15, 12, 0, 12" FontFamily="Segoe WP Light" Foreground="#DEFFFFFF"/>
+							</StackPanel>
+						</Grid>
+
+						<StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+							<TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								<Run Text="Kliknij "/>
+								<Bold>
+									<Run Text="cytat"/>
+								</Bold>
+								<Run Text=" na stronie "/>
+								<Bold>
+									<Run Text="losowy cytat"/>
+								</Bold>
+								<Run Text=" aby czytać go na nowej stronie w trybie horyzontalnym lub wertykalnym."/>
+							</TextBlock>
+							<Image Source="/Images/g14.png" Margin="0, 0, 10, 0"/>
+						</StackPanel>
+
+
+						<Grid >
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="auto"/>
+								<ColumnDefinition Width=" 1*"/>
+							</Grid.ColumnDefinitions>
+							<StackPanel Grid.Column="0" Width="50" Height="50" Margin="1" Background="#FF536CA4">
+								<TextBlock Text="3" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe WP Light"/>
+							</StackPanel>
+							<StackPanel Grid.Column="1" Height="70" Margin="1">
+								<TextBlock Text="POLUB CYTAT" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="35" Margin="15, 12, 0, 12" FontFamily="Segoe WP Light" Foreground="#DEFFFFFF"/>
+							</StackPanel>
+						</Grid>
+
+						<StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+							<TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								<Run Text="Kliknij "/>
+								<Bold>
+									<Run Text="ulubiony"/>
+								</Bold>
+								<Run Text=" na stronie "/>
+								<Bold>
+									<Run Text="losowy cytat"/>
+								</Bold>
+								<Run Text=" aby dodać do ulubionych. Aby usunąć cycta z listy ulubionych kliknij ponownie "/>
+								<Bold>
+									<Run Text="ulubiony"/>
+								</Bold>
+								<Run Text=" lub wybierz go z listy ulubionych i kliknij "/>
+								<Bold>
+									<Run Text="ulubiony"/>
+								</Bold>
+								<Run Text="."/>
+							</TextBlock>
+							<Image Source="/Images/g12.png" Margin="0, 0, 10, 0"/>
+						</StackPanel>
+
+						<Grid >
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="auto"/>
+								<ColumnDefinition Width=" 1*"/>
+							</Grid.ColumnDefinitions>
+							<StackPanel Grid.Column="0" Width="50" Height="50" Margin="1" Background="#FF536CA4">
+								<TextBlock Text="4" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe WP Light"/>
+							</StackPanel>
+							<StackPanel Grid.Column="1" Height="70" Margin="1">
+								<TextBlock Text="PRZEGLĄDAJ CYTATY" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="35" Margin="15, 12, 0, 12" FontFamily="Segoe WP Light" Foreground="#DEFFFFFF"/>
+							</StackPanel>
+						</Grid>
+
+						<StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+							<TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								Kliknij <Bold>wszystkie wg. cytatu</Bold> na stronie <Bold>cytaty</Bold> aby wyświetlić wszystkie cytaty 
+								alfabetycznie wg. cytatów.
+							</TextBlock>
+							<Image Source="/Images/g15.png" Margin="0, 0, 10, 0"/>
+						</StackPanel>
+
+						<StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+							<TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								Kliknij <Bold>wszystkie wg. autora</Bold> na stronie <Bold>cytaty</Bold> aby wyświetlić wszystkie cytaty 
+								alfabetycznie wg. autorów.
+							</TextBlock>
+							<Image Source="/Images/g16.png" Margin="0, 0, 10, 0"/>
+						</StackPanel>
+
+						<StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+							<TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								Kliknij <Bold>tylko ulubione</Bold> na stronie <Bold>cytaty</Bold> aby wyświetlić wszystkie ulubione cytaty 
+								alfabetycznie.
+							</TextBlock>
+							<Image Source="/Images/g17.png" Margin="0, 0, 10, 0"/>
+						</StackPanel>
+
+						<StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+							<TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								Kliknij <Bold>cytat</Bold> na stronie <Bold>cytaty</Bold> aby go przeczytać.
+							</TextBlock>
+							<Image Source="/Images/g18.png" Margin="0, 0, 10, 0"/>
+						</StackPanel>
+						
+                        <Grid >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width=" 1*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Width="50" Height="50" Margin="1" Background="#FF536CA4">
+                                <TextBlock Text="5" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe WP Light"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Height="70" Margin="1">
+                                <TextBlock Text="UDOSTĘPNIAJ CYTATY" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="35" Margin="15, 12, 0, 12" FontFamily="Segoe WP Light" Foreground="#DEFFFFFF"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+                            <TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								Kliknij <Bold>cytat</Bold> na stronie <Bold>cytaty</Bold> aby go przeczytać.
+                                Wybierz <Bold>udostępnij</Bold> aby podzielić się cytatem.
+                            </TextBlock>
+                            <Image Source="/Images/g19.png" Margin="0, 0, 10, 0"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Vertical" Margin="10, 10, 0, 10">
+                            <TextBlock FontSize="22" TextWrapping="Wrap" Foreground="White" Margin="0, 10">
+								Wybierz z listy metodę udostępnienia cytatu: sms, e-mail lub może status siecie
+                            </TextBlock>
+                            <Image Source="/Images/g20.png" Margin="0, 0, 10, 0"/>
+                        </StackPanel>
+
+                        <Controls:RoundButton x:Name="btnBack" ImageSource="/Images/ok_48.png" BorderBrush="White" Foreground="White" Margin="30" toolkit:TiltEffect.IsTiltEnabled="True" Click="btnBack_Click">
+                            <Controls:RoundButton.PressedBrush>
+                                <SolidColorBrush Color="{StaticResource BlueColor}" />
+                            </Controls:RoundButton.PressedBrush>
+                        </Controls:RoundButton>
+
+                    </StackPanel>
+				</ScrollViewer>
+			</phone:PivotItem>
+
+		</phone:Pivot>
+	</Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,64 @@
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\App.xbf
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\MainPage.xbf
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.xr.xml
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.exe
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.pdb
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\resources.pri
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\AppxManifest.xml
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.build.appxrecipe
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\App.g.i.cs
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\App.g.cs
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\MainPage.g.i.cs
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\MainPage.g.cs
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\App.xaml
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\MainPage.xaml
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\App.xbf
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\MainPage.xbf
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\Motywuj.WindowsPhone.exe
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\Motywuj.WindowsPhone.pdb
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\priconfig.xml
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\layout.resfiles
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\resources.resfiles
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\pri.resfiles
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\qualifiers.txt
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\App.xbf
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\MainPage.xbf
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.xr.xml
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.exe
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.pdb
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\resources.pri
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\AppxManifest.xml
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\bin\Debug\Motywuj.WindowsPhone.build.appxrecipe
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\App.g.i.cs
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\App.g.cs
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\MainPage.g.i.cs
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\MainPage.g.cs
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\App.xaml
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\MainPage.xaml
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\App.xbf
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\MainPage.xbf
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\Motywuj.WindowsPhone.exe
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\Motywuj.WindowsPhone.pdb
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\priconfig.xml
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\layout.resfiles
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\resources.resfiles
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\pri.resfiles
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\qualifiers.txt
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\MOBILE PROJECTS\Motywuj\Sources\Windows\Motywuj\Windows 8.1\Motywuj.WindowsPhone\obj\Debug\ProjectArchitectures.txt

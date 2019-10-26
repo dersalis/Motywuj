@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ATRX_LAB</Machine>
+    <WindowsUser>Damian</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0b65e027-28e3-4faa-8f36-3eab32f92ac8</PackageIdentityName>
+    <IntermediateOutputPath>D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F3EB218B73EC5C9EFF09A02EAFFDA58DC66369F51C4BA598FC0E19F82C84199F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0b65e027-28e3-4faa-8f36-3eab32f92ac8_1.0.0.0_neutral__zkjhe9sn2b5qc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0b65e027-28e3-4faa-8f36-3eab32f92ac8_zkjhe9sn2b5qc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0b65e027-28e3-4faa-8f36-3eab32f92ac8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Damian</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-29T20:41:25.292</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\bin\Debug\Motywuj.Windows.exe">
+      <PackagePath>Motywuj.Windows.exe</PackagePath>
+      <Modified>2015-05-29T20:53:15.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2015-05-23T22:09:46.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+      <Modified>2015-05-23T22:09:45.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2015-05-23T22:09:46.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Log.scale-100.png">
+      <PackagePath>Assets\Log.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:52:39.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Log.scale-140.png">
+      <PackagePath>Assets\Log.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:52:39.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Log.scale-180.png">
+      <PackagePath>Assets\Log.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:52:41.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Log.scale-80.png">
+      <PackagePath>Assets\Log.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:52:39.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:41:59.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:41:59.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:41:59.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:41:57.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\MidLogo.scale-100.png">
+      <PackagePath>Assets\MidLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:59:00.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\MidLogo.scale-140.png">
+      <PackagePath>Assets\MidLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:59:00.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\MidLogo.scale-180.png">
+      <PackagePath>Assets\MidLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:59:01.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\MidLogo.scale-80.png">
+      <PackagePath>Assets\MidLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:59:00.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:14:47.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:14:47.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:14:45.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:14:45.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:28:39.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:28:39.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:28:39.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:28:39.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:05:25.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:05:23.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T21:02:14.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T20:55:49.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T20:58:51.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T20:58:51.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T22:05:45.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T22:05:45.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\WideLogo.scale-180.png">
+      <PackagePath>Assets\WideLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T22:05:45.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\Assets\WideLogo.scale-80.png">
+      <PackagePath>Assets\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-23T22:05:45.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\add48.png">
+      <PackagePath>Images\add48.png</PackagePath>
+      <Modified>2015-05-20T20:51:25.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\favNo128.png">
+      <PackagePath>Images\favNo128.png</PackagePath>
+      <Modified>2015-05-20T20:24:23.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\favYes128.png">
+      <PackagePath>Images\favYes128.png</PackagePath>
+      <Modified>2015-05-20T20:25:29.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\icon100.png">
+      <PackagePath>Images\icon100.png</PackagePath>
+      <Modified>2013-12-10T11:31:39.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\arrowLeft48.png">
+      <PackagePath>Images\arrowLeft48.png</PackagePath>
+      <Modified>2015-05-20T18:56:03.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\arrowRight48.png">
+      <PackagePath>Images\arrowRight48.png</PackagePath>
+      <Modified>2015-05-20T18:56:28.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\icon48.png">
+      <PackagePath>Images\icon48.png</PackagePath>
+      <Modified>2013-12-11T12:36:44.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\random128.png">
+      <PackagePath>Images\random128.png</PackagePath>
+      <Modified>2015-05-20T20:21:25.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\settings48.png">
+      <PackagePath>Images\settings48.png</PackagePath>
+      <Modified>2015-05-20T20:52:49.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Shared\Images\shere128.png">
+      <PackagePath>Images\shere128.png</PackagePath>
+      <Modified>2015-05-20T20:42:10.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-29T20:41:23.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-05-29T20:53:14.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\bin\Debug\Motywuj.Windows.xr.xml">
+      <PackagePath>Motywuj.Windows.xr.xml</PackagePath>
+      <Modified>2015-05-29T20:46:24.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROJEKTY\APLIKACJE\Motywuj\Sources\Windows\Motywuj\Motywuj\Motywuj.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-29T20:41:24.595</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

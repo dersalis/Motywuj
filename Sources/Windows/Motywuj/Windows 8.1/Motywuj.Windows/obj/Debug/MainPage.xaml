@@ -1,0 +1,173 @@
+﻿<Page
+    x:Class="Motywuj.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Motywuj"
+    
+    xmlns:MV="using:Motywuj.ViewModels"
+    
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <MV:CitationViewModel x:Key="CitationMV"/>
+    </Page.Resources>
+
+    <Grid DataContext="{StaticResource CitationMV}">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="683,768" StartPoint="683,0" ColorInterpolationMode="ScRgbLinearInterpolation" MappingMode="Absolute" SpreadMethod="Reflect">
+                <LinearGradientBrush.Transform>
+                    <CompositeTransform Rotation="-24.228" SkewX="3"/>
+                </LinearGradientBrush.Transform>
+                <GradientStop Color="#FF4B7F24" Offset="0"/>
+                <GradientStop Color="#FF377806" Offset="1"/>
+                <GradientStop Color="#FF3E7612" Offset="0.157"/>
+                <GradientStop Color="#FF4F8D1C" Offset="0.55"/>
+                <GradientStop Color="#FF4D891E" Offset="0.4"/>
+                <GradientStop Color="#FF407814" Offset="0.77"/>
+                <GradientStop Color="#FF387608" Offset="0.91"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition x:Name="LeftPanelWidth" Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Prawa kolumna -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="Images/icon100.png" Height="66" Margin="0 0 0 0"/>
+                <Rectangle Grid.Column="1" Fill="#19FFFFFF" Width="1" Margin="10 0 0 0"/>
+                <Button Grid.Column="2" Style="{StaticResource MotButtonStyle}" Height="66">
+                    <StackPanel Orientation="Horizontal" Margin="10 0 10 0">
+                        <Image Height="30" Source="Images/random128.png" Margin="0 0 0 0"/>
+                        <TextBlock Text="Losuj" FontSize="26" Margin="10 0 0 0" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Rectangle Grid.Column="3" Fill="#19FFFFFF" Width="1" Margin="0 0 0 0"/>
+                <Button Grid.Column="4" Style="{StaticResource MotButtonStyle}" Height="66">
+                    <StackPanel Orientation="Horizontal" Margin="10 0 10 0">
+                        <Image Height="30" Source="Images/favYes128.png" Margin="0 0 0 0"/>
+                        <TextBlock Text="Ulubiony" FontSize="26" Margin="10 0 0 0" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Rectangle Grid.Column="5" Fill="#19FFFFFF" Width="1" Margin="0 0 0 0"/>
+                <Button Grid.Column="6" Style="{StaticResource MotButtonStyle}" Height="66">
+                    <StackPanel Orientation="Horizontal" Margin="10 0 10 0">
+                        <Image Height="30" Source="Images/shere128.png" Margin="0 0 0 0"/>
+                        <TextBlock Text="Udostępnij" FontSize="26" Margin="10 0 0 0" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Rectangle Grid.Column="7" Fill="#19FFFFFF" Width="1" Margin="0 0 0 0"/>
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="150" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="{Binding SelectedCitation.Content}" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center" Margin="0 0 0 0" FontSize="40" FontFamily="Segoe UI"/>
+                <TextBlock Grid.Row="1" Text="{Binding SelectedCitation.Author}" HorizontalAlignment="Right" Opacity="0.7" FontSize="24" FontFamily="Segoe UI Semilight" Margin="0 10 0 0"/>
+            </Grid>
+        </Grid>
+
+        <!-- Lista cyctatów -->
+        <Grid Grid.Column="1" Background="#33FFFFFF">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <!--<Rectangle Grid.Column="0" Fill="#19000000" Width="2"/>-->
+            <Rectangle Grid.Column="1" Fill="#33FFFFFF" Width="1"/>
+            <StackPanel x:ConnectionId='1' x:Name="ChangeLeftPanel" Grid.Column="2"                                 VerticalAlignment="Center">
+                <Image x:Name="LeftPanelSymbol" Source="Images/arrowLeft48.png"/>
+            </StackPanel>
+
+            <Grid x:Name="CitationList" Grid.Column="3" Width="400" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Right" Margin="0 10 0 0">
+                    <Button Style="{StaticResource MotButtonStyle}">
+                        <StackPanel Orientation="Horizontal" Margin="15 0 15 0">
+                            <Image Height="24" Source="Images/add48.png" Margin="0 0 0 0"/>
+                            <TextBlock Text="Dodaj" FontSize="20" Margin="10 0 0 0" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1">
+                    <StackPanel Orientation="Vertical" Margin="0 15 20 5 ">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="Damian Ruta" TextTrimming="WordEllipsis" FontSize="22" FontFamily="Segoe UI Black"/>
+                            <Image Grid.Column="1" Source="Images/favYes128.png" Height="20"/>
+                        </Grid>
+                        <TextBlock Grid.Row="0" Text="To jest jeden z cytatów dostępny w liście cytatów znajdującej się po prawej stronie panelu" TextWrapping="Wrap" TextTrimming="WordEllipsis" Height="60" FontSize="20" FontFamily="Segoe UI" Opacity="0.7"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Margin="0 15 20 5 ">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="Damian Ruta" TextTrimming="WordEllipsis" FontSize="22" FontFamily="Segoe UI Black"/>
+                            <Image Grid.Column="1" Source="Images/favYes128.png" Height="20"/>
+                        </Grid>
+                        <TextBlock Grid.Row="0" Text="To jest jeden z cytatów dostępny w liście cytatów znajdującej się po prawej stronie panelu" TextWrapping="Wrap" TextTrimming="WordEllipsis" Height="60" FontSize="20" FontFamily="Segoe UI" Opacity="0.7"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <Grid Grid.Row="2" HorizontalAlignment="Right" Margin="0 0 10 5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Style="{StaticResource MotButtonStyle}">
+                        <StackPanel Orientation="Horizontal" Margin="15 0 15 0">
+                            <Image Height="24" Source="Images/add48.png" Margin="0 0 0 0"/>
+                            <TextBlock Text="Dodaj" FontSize="20" Margin="10 0 0 0" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Rectangle Grid.Column="1" Fill="#33FFFFFF" Width="1" Margin="1 0"/>
+                    <Button Grid.Column="2" Style="{StaticResource MotButtonStyle}">
+                        <StackPanel Orientation="Horizontal" Margin="15 0 15 0">
+                            <Image Height="24" Source="Images/settings48.png" Margin="0 0 0 0"/>
+                            <TextBlock Text="Ustawienia" FontSize="20" Margin="10 0 0 0" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
+
